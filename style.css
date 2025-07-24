@@ -51,10 +51,10 @@ body {
 }
 
 
-#informacionig{
+#informacionig {
     background-color: darkorange;
     font-size: 30px;
-color:#0a5858;
+    color: #0a5858;
 }
 
 #texto-de-inicio {
@@ -76,7 +76,7 @@ input[type="text"] {
 
 .consulta {
     display: flex;
- padding: 30px;
+    padding: 30px;
     font-size: 20px;
     width: 100%;
 }
@@ -178,11 +178,13 @@ footer {
     width: 50%;
     height: auto;
 }
+
 .imagen-descriptiva-propuesta video {
     padding: 10px;
     width: 50%;
     height: auto;
 }
+
 .imagen-descriptiva-propuesta img {
     padding: 10px;
     width: 50%;
@@ -196,8 +198,61 @@ footer {
     font-size: 15px;
 
 }
-.grid-container{
+
+.grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "img1 img2 img3 img4 img5"
+        "text1 text2 text3 text4 text5";
+    gap: 15px;
+    grid-template-rows: repeat (5, 1fr);
+    grid-template-columns: auto auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.grid {
+    width: 150px;
+    height: 150px;
+    margin: 0 2rem;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+.img5 {
+    grid-area: img5;
+}
+
+.text1 {
+    grid-area: text1;
+}
+
+.text2 {
+    grid-area: text2;
+}
+
+.text3 {
+    grid-area: text3;
+}
+
+.text4 {
+    grid-area: text4;
+}
+
+.text5 {
+    grid-area: text5;
 }
