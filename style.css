@@ -1,0 +1,203 @@
+li {
+    color: black;
+    font: lighter;
+    font-size: 15px;
+}
+
+h1 {
+    color: #f78001;
+    align-items: center;
+    font: lighter;
+    text-align: center;
+    font-size: 50px
+}
+
+h2 {
+    color: #137878;
+    font: lighter;
+    text-align: center;
+    font-size: 30px;
+}
+
+h4 {
+    color: #137878;
+    font: lighter;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+    width: 100%;
+}
+
+.seccion-de-pagina {
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.opciones {
+    font-size: 30px;
+    font-weight: 900;
+    background-color: #96bebe;
+    text-align: center;
+}
+
+
+#informacionig{
+    background-color: darkorange;
+    font-size: 30px;
+color:#0a5858;
+}
+
+#texto-de-inicio {
+    color: black;
+    border-color: #f78001;
+    border-style: double;
+
+}
+
+#bienvenida {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+input[type="text"] {
+    width: 600px;
+    height: 200px;
+}
+
+.consulta {
+    display: flex;
+ padding: 30px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.consulta input text {
+    width: 50%;
+}
+
+.frase-de-inicio {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.barra-de-navegacion {
+    display: block;
+    flex-direction: row;
+    background-color: #96bebe;
+    width: 100%
+}
+
+.barra-de-navegacion ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.barra-de-navegacion li {
+    margin: 0 100px;
+}
+
+.barra-de-navegacion a {
+    color: black;
+    text-decoration: none;
+}
+
+.containerfooter {
+    display: flex;
+    margin-bottom: 0%;
+    background-color: #96bebe;
+}
+
+h3 {
+    color: #137878;
+    font: lighter;
+    font-size: 30px;
+}
+
+main {
+    margin-bottom: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    margin-top: auto;
+
+}
+
+.logosredes {
+    display: flex;
+    flex-direction: column;
+    width: 2%;
+    padding: 7px;
+    margin: 0 5px;
+}
+
+.logosredes1 {
+    display: flex;
+    flex-direction: column;
+    width: 3%;
+    padding: 3px;
+    margin: 0 5px;
+}
+
+.logosredes2 {
+    display: flex;
+    flex-direction: column;
+    width: 3%;
+    padding: 2px;
+    margin: 0 5px;
+}
+
+.textofooter {
+    text-align: right;
+    padding: 8px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.imagen-descriptiva-propuesta {
+    padding: 10px;
+    width: 50%;
+    height: auto;
+}
+.imagen-descriptiva-propuesta video {
+    padding: 10px;
+    width: 50%;
+    height: auto;
+}
+.imagen-descriptiva-propuesta img {
+    padding: 10px;
+    width: 50%;
+    height: auto;
+}
+
+
+
+.descripcion-de-propuesta {
+    width: 50%;
+    font-size: 15px;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
